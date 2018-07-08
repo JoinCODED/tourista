@@ -1,0 +1,13 @@
+{% extends "base.html" %} 
+
+{% block title %}Detail{% endblock title %} 
+
+{% block content %}
+<ul>
+    <li>{{destination.name}}</li>
+    <li>{{destination.description}}</li>
+    <li>{{destination.activities}}</li>
+    <li><img src="{{destination.pretty_picture.url}}"></li>
+    <li>{{destination.optimal_visiting_season}}</li>
+</ul>
+{% endblock content %}
