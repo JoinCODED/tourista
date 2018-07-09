@@ -7,13 +7,9 @@
 <div class="row">
   {% for destination in destinations %}
   <a href="{% url 'destination-detail' destination.id %}">
-    <ul>
-      <img src="{{destination.pretty_picture.url}}" />
-      <li>{{destination.name}}</li>
-      <li>{{destination.description}}</li>
-      <li>{{destination.activities}}</li>
-      <li>{{destination.optimal_visiting_season}}</li>
-    </ul>
+    <img src="{{destination.pretty_picture.url}}" />
+    <p>{{destination.name}}</p>
+    <p>{{destination.activities}}</p>
   </a>
   {% endfor %}
 </div>
