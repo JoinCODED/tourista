@@ -1,5 +1,5 @@
 1. Setup a virtual environment.
-2. Fork the repository Clone it.
+2. Fork the repository and Clone it.
 3. Install the packages from the requirements file.
 4. Add bootstrap and all its scripts to your project's `base.html` file using the CDN.
 5. Configure your static files and include your `custom.css` file in `base.html`.
